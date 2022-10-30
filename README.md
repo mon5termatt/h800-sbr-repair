@@ -9,7 +9,7 @@ I accidently wiped the SBR off my Dell H800 Card when trying to flash my H310. D
 ## Compatability
 This script should work with any pc running BIOS (I did not test UEFI)
 
-### step 1
+### Step 1
 Make a bootable USB using Rufus.ie and Load Freedos.
 
 ### Step 2
