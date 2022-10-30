@@ -2,9 +2,22 @@
 
 ## what is this anyways??
 
+
+
 This is the method I used to REPAIR my SBR on my H800 Raid Card after "Bricking" it.
 
+
 I accidently wiped the SBR off my Dell H800 Card when trying to flash my H310. Dont do what I did.
+
+Error Message: 
+
+`Raid Adapter`
+
+`Serial Boot Rom (SBR)Device is corrupt or bad!!!`
+
+`Please Contact Tech Support.`
+
+
 
 ## Compatability
 This script should work with any pc running BIOS (I did not test UEFI)
@@ -20,7 +33,9 @@ Attach the corrupted H800 card and boot your computer from said USB
 # DO NOT HAVE ANY OTHER CARDS ATTACHED TO THE PC. THIS IS HOW I MESSED UP!!!!
 
 ### Step 4
-Run the command `MegaRec.exe -writesbr 0 H800.bin`
+Verify The card number is 0 by running `MegaRec.exe -adpList`
+
+Then run the command `MegaRec.exe -writesbr 0 H800.bin`
 
 ### Step 5
 If it says success, Reboot! You are all set. 
